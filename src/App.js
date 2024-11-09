@@ -24,7 +24,8 @@ export function App(){
     )
   }
   const Container=styled.div`
-  display:flex;flex-direction:column;align-items:center;
-  height:100vh;width:100vw;background-color:green;
-  overflow:auto;
+  display:flex;flex-direction:column;
+  align-items:center;overflow:auto;
+  height:100vh;width:100vw;
+  background-color:#6095d6;
   `

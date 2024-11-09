@@ -1,8 +1,8 @@
 import styled from "styled-components"
 
-export default function Item({nome,descricao,preco}){
+export default function Item({nome,preco}){
     return(
-        <Conteudo color={preco>20}>
+        <Conteudo>
             <h1>{nome}</h1>
             <h2>{preco},00</h2>
         </Conteudo>
